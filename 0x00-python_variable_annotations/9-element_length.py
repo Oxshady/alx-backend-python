@@ -5,6 +5,4 @@ from typing import List, Tuple, Sequence
 
 
 def element_length(lst: List[Sequence]) -> List[Tuple[Sequence, int]]:
-    """Return a list of tuples where each
-    tuple contains a string and its length"""
     return [(i, len(i)) for i in lst]
